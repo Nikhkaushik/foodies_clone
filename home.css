@@ -1,0 +1,253 @@
+body{
+    margin: auto;
+    background-color:white;
+    color:black 
+ }
+ .mydark{
+    background-color:black;
+    color:white 
+}
+
+/* header start */
+
+header{
+     height: 60px;
+     /* background-color: #e89c83; */
+     background-color: #800000;
+    }
+
+#icon{
+    float: left;
+    font-family: Poppins;
+    margin-block: -1%;
+}
+#icon > h1{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+#social{
+    float: right;
+}
+#social > button{
+    margin-bottom: 2%;
+}
+.blogo{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 2%;
+}
+
+
+    
+
+
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* header ends */
+
+
+
+/* search starts */
+
+#search{
+    height: 400px;
+     background-image: url('/images/food-wallpaper.png'); 
+     background-repeat: no-repeat;
+     /* background-size: cover; */
+     background-size: 100% 400px;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 50%;
+    margin-left:45%;
+    margin-top:1%;
+    position: absolute;
+    font-size:80px;
+    color: #800000;
+    animation:revolve 10s infinite;
+}
+#logo>span{
+    margin-left: 13%;
+    font-size: 148%;
+    margin-top: 5%;
+    /* margin-bottom: auto; */
+    position: absolute;
+    
+}
+
+
+#heading{
+    text-align: center;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 39%;
+    text-decoration: solid;
+    font-size: 33px;
+    color:  #fff;
+    font-family: 'Lobster', cursive;
+}
+
+.dropdown{
+    height: 60px;
+    width: 41%;
+    margin-left: 37%;
+    margin-right: 16%;
+    position: absolute;
+    /* border: 2px solid white; */
+    margin-top: 16%;
+}
+select{
+    height: 60px;
+    width: 35%;
+    border-radius: 14%;
+    font-size: medium;
+    text-align: center;
+}
+#dropdown1{
+    width: 34%;
+}
+
+#dropdown2{
+    width: 41%;
+}
+
+
+/* pocrestaurents start */
+
+.pocRestaurants{
+    height: 600px;
+    border: 2px solid green;
+    width: 90%;
+    margin-left: 5%;
+    /* margin-top: 5%; */
+}
+/* .textmaterial{
+    height: 550px;
+    border: 2px solid yellow;
+    width: 40%;
+}
+.picmaterial{
+    height: 550px;
+    border: 2px solid rgb(119, 0, 255);
+    width: 50%;
+    
+} */
+
+
+/* quick search start */
+
+#quicksearch{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+}
+
+#quickheading{
+    color: #800000;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#QuickHeading:hover{
+    font-size:35px; 
+}
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:200px;
+    width:30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+    animation: dance 10s infinite
+}
+
+.tileContainer:hover{
+    /*transform: scale(1.1);
+    transform: skewX(-20deg);
+    transform: rotate(20deg);*/
+    transform: scale(1.1)
+}
+
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    60% {transform: scale(1.1)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+
+.tileComponent1{
+    width:58%;
+    float: left;
+    height:200px;
+}
+.tileComponent1 > img{
+    height:200px;
+    width:100%;
+}
+.tileComponent2{
+    width:32%;
+    float: left;
+    height:100px;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.componentHeading{
+    font-size: 25px;
+    color:orange;
+}
+
+.componentHeading > a{
+    color:orange;
+}
+.componentSubHeading{
+    color:gray;
+}
+/* footer Start */
+footer{
+    display:inline-block;
+    width:100%;
+    margin-top:2%;
+    height:150px;
+    background-color:#e09c83
+}
+
+.foot1{
+    width:35%;
+    height:70px;
+    float: left;
+    border-right:2px solid white
+}
+
+
+
+
+footer{
+    height: 60px;
+    border: 2px solid blue;
+}
